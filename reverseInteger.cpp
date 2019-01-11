@@ -33,7 +33,7 @@ int reverse(int x)
 int main()
 {
     int inputInt;
-    cout << "Enter a string of numbers from 2-9: ";
+    cout << "Enter a number: ";
     cin >> inputInt;
     cout << reverse(inputInt) << endl;
     return 0;
